@@ -23,6 +23,8 @@
 		61457B7F1E0C577400209325 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B7E1E0C577400209325 /* User.swift */; };
 		61457B811E0C59D800209325 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B801E0C59D800209325 /* UserList.swift */; };
 		61457B841E0C5A6100209325 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B831E0C5A6100209325 /* Tag.swift */; };
+		61457B871E0C5ABA00209325 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B861E0C5ABA00209325 /* Post.swift */; };
+		61457B891E0C5B8200209325 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B881E0C5B8200209325 /* PostList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		61457B7E1E0C577400209325 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		61457B801E0C59D800209325 /* UserList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
 		61457B831E0C5A6100209325 /* Tag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		61457B861E0C5ABA00209325 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		61457B881E0C5B8200209325 /* PostList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
 		78497AF406EFEE5D6379E5B9 /* Pods_QiiterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiiterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8658E5D6F227268BF9802 /* Pods-QiiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiiterUITests/Pods-QiiterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AED13E185F6CA71B3C84DF98 /* Pods-Qiiter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiiter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qiiter/Pods-Qiiter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -198,6 +202,7 @@
 		61457B7C1E0C571400209325 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				61457B851E0C5AB300209325 /* Post */,
 				61457B821E0C5A4900209325 /* Tag */,
 				61457B7D1E0C576B00209325 /* User */,
 			);
@@ -219,6 +224,15 @@
 				61457B831E0C5A6100209325 /* Tag.swift */,
 			);
 			name = Tag;
+			sourceTree = "<group>";
+		};
+		61457B851E0C5AB300209325 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				61457B861E0C5ABA00209325 /* Post.swift */,
+				61457B881E0C5B8200209325 /* PostList.swift */,
+			);
+			name = Post;
 			sourceTree = "<group>";
 		};
 		E18B1B291620A1A79DD389E9 /* Frameworks */ = {
@@ -513,11 +527,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				61457B841E0C5A6100209325 /* Tag.swift in Sources */,
+				61457B891E0C5B8200209325 /* PostList.swift in Sources */,
 				61457B451E0C4EFB00209325 /* ViewController.swift in Sources */,
 				61457B741E0C53D400209325 /* AppConfig.swift in Sources */,
 				61457B431E0C4EFB00209325 /* AppDelegate.swift in Sources */,
 				61457B721E0C538200209325 /* AppError.swift in Sources */,
 				61457B7F1E0C577400209325 /* User.swift in Sources */,
+				61457B871E0C5ABA00209325 /* Post.swift in Sources */,
 				61457B811E0C59D800209325 /* UserList.swift in Sources */,
 				61457B791E0C555F00209325 /* GoogleAnalyticsLauncher.swift in Sources */,
 			);
