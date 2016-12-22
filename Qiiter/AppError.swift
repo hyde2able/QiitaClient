@@ -7,3 +7,12 @@
 //
 
 import Foundation
+
+enum AppError: Error {
+    case connection
+    case response
+    case unauthorized
+    case unknown
+    case urlScheme
+    case social
+}

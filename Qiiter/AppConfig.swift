@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct AppConfig {
+    
+    struct Qiita {
+        static let AccessToken = "8b4200b05fc6b7491fe6a8b3b7e255b1ac47ad5c"
+        static let BaseUrl = "http://qiita.com"
+    }
+    
+    struct GoogleAnalytics {
+        static let TrackID = "hogehoge"
+    }
+}

@@ -7,3 +7,17 @@
 //
 
 import Foundation
+
+struct GoogleAnalyticsLauncher {
+    
+    // MARK: - Public
+    static func launch() {
+        guard let tracker = GAI.sharedInstance() else { return }
+        tracker.tracker(withTrackId: AppConfig.GoogleAnalytics.TrackID)
+        tracker.trackUncaughtExceptions = true
+        tracker.dispatchInterval = 20
+        tracker.logger.logLevel = .none
+        //tracker.dryRun = AppInfo.isDebug
+    }
+}
+
