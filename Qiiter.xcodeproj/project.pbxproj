@@ -28,6 +28,7 @@
 		61457B8D1E0C5D0000209325 /* WebAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B8C1E0C5D0000209325 /* WebAPI.swift */; };
 		61457B8F1E0C5F7D00209325 /* WebAPI.RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B8E1E0C5F7D00209325 /* WebAPI.RequestProtocol.swift */; };
 		61457B921E0C639800209325 /* PostEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B911E0C639800209325 /* PostEndPoint.swift */; };
+		61457B941E0C66AB00209325 /* StockEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61457B931E0C66AB00209325 /* StockEndPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		61457B8C1E0C5D0000209325 /* WebAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPI.swift; sourceTree = "<group>"; };
 		61457B8E1E0C5F7D00209325 /* WebAPI.RequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAPI.RequestProtocol.swift; sourceTree = "<group>"; };
 		61457B911E0C639800209325 /* PostEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostEndPoint.swift; sourceTree = "<group>"; };
+		61457B931E0C66AB00209325 /* StockEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockEndPoint.swift; sourceTree = "<group>"; };
 		78497AF406EFEE5D6379E5B9 /* Pods_QiiterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiiterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F8658E5D6F227268BF9802 /* Pods-QiiterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiiterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QiiterUITests/Pods-QiiterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		AED13E185F6CA71B3C84DF98 /* Pods-Qiiter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qiiter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qiiter/Pods-Qiiter.debug.xcconfig"; sourceTree = "<group>"; };
@@ -264,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				61457B911E0C639800209325 /* PostEndPoint.swift */,
+				61457B931E0C66AB00209325 /* StockEndPoint.swift */,
 			);
 			name = EndPoint;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				61457B871E0C5ABA00209325 /* Post.swift in Sources */,
 				61457B8D1E0C5D0000209325 /* WebAPI.swift in Sources */,
 				61457B921E0C639800209325 /* PostEndPoint.swift in Sources */,
+				61457B941E0C66AB00209325 /* StockEndPoint.swift in Sources */,
 				61457B811E0C59D800209325 /* UserList.swift in Sources */,
 				61457B791E0C555F00209325 /* GoogleAnalyticsLauncher.swift in Sources */,
 			);
